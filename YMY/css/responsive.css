@@ -15,9 +15,21 @@
     display: inline-block;
     zoom: 1;
   }
+  .textdetail{
+    text-align: center;
+    background:#fc5050;
+    color: #fff;
+    height: 30px;
+    width: 120px;
+    line-height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
   .contentshirt{
     width: 50%;
   }
+  
   .seeall{
     text-align: center;
     border: 3px solid #2794eb;
@@ -134,9 +146,7 @@
       display: inline-block;
       zoom: 1;
     }
-    .contentshirt{
-      width: 50%;
-    }
+    
     .seeall{
       text-align: center;
       border: 3px solid #2794eb;
