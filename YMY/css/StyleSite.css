@@ -86,14 +86,14 @@
   height: 40px;
   text-align: center;
   color:#2794eb;
-  font-size: 21px;
+  font-size: 18px;
   font-family: 'OpenSansBold';
   line-height: 40px;
 }
 .btncall p:hover{
   color:#fff;
   background: #0c74c7;
-  font-size: 21px;
+  font-size:18px;
   font-family: 'OpenSansBold';
   line-height: 40px;
 }
@@ -240,7 +240,7 @@ a:hover{
   font-size: 18px;
 }
 .textcus1{
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   font-family: 'OpenSansBold';
   color: #fff;
@@ -248,7 +248,7 @@ a:hover{
 .textcus2{
   text-align: center;
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
 }
 .seeabout {
   text-align: center;
@@ -267,14 +267,24 @@ a:hover{
   color: #fff;
   border-radius: 5px;
 }
+
 .feedback{
   padding: 30px 5px;
   text-align: center;
   position: relative;
 }
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background:blue;
+}
+.owl-theme .owl-dots .owl-dot {
+  display: inline-block;
+  zoom: 1.5;
+}
+.owl-nav{
+  display:none;
+}
 .circle img{
-  height: 142px;
-  width: 142px;
+  padding:5px 110px;
 }
 .textfeedback{
   color: #000;
@@ -339,7 +349,7 @@ a:hover{
 .footer{
   clear: left;
   min-height: 355px;
-  padding: 85px 30px 0 10px;
+  padding: 85px 30px 15px 10px;
   background: #2794eb;
   position: relative;
 }
@@ -353,6 +363,9 @@ a:hover{
   font-family: 'OpenSansBold';
   color: #fff;
   text-transform: uppercase;
+}
+.fo{
+  margin-bottom:30px;
 }
 .hr{
   width: 25px;

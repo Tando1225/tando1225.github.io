@@ -1,5 +1,7 @@
-@media only screen and (max-width: 767px) and (min-width: 320px){
-
+@media only screen and (max-width: 767px) and (min-width: 576px){
+  .container {
+    max-width: 740px;
+}
   .formcontrol{
     display: block;
     width:50%;
@@ -8,6 +10,13 @@
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
+  }
+  .owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+  }
+  .contentshirt{
+    width: 50%;
   }
   .seeall{
     text-align: center;
@@ -42,7 +51,7 @@
     display: none;
   }
   .textcus1{
-    font-size: 18px;
+    font-size: 30px;
     text-align: center;
     font-family: 'OpenSansBold';
     color: #fff;
@@ -50,10 +59,10 @@
   .textcus2 {
     text-align: center;
     color: #fff;
-    font-size: 14px;
+    font-size: 18px;
   }
   .logocus{
-    width: 115px;
+    width: 141px;
     position: relative;
     height: 100px;
     border:1px solid #f3f4f6;
@@ -110,9 +119,132 @@
     background-color: #dbdbdb;
   }
   }
+  @media only screen and (max-width: 599px) and (min-width: 320px){
+
+    .formcontrol{
+      display: block;
+      width:50%;
+      background: transparent;
+      border: 1px solid #fff;
+      margin: 5px;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .owl-theme .owl-dots .owl-dot {
+      display: inline-block;
+      zoom: 1;
+    }
+    .contentshirt{
+      width: 50%;
+    }
+    .seeall{
+      text-align: center;
+      border: 3px solid #2794eb;
+      color: #2794eb;
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+    .btncall p {
+      background: #fff;
+      border-radius: 5px;
+      height: 40px;
+      text-align: center;
+      color: #2794eb;
+      font-size: 21px;
+      margin: 15px auto;
+      font-family: 'OpenSansBold';
+      line-height: 40px;
+    }
+    .hr{
+      margin: auto;
+    }
+    .text1 {
+     display: none;
+    }
+    .text2 {
+      display: none;
+    }
+    .seeabout{
+      display: none;
+    }
+    .textcus1{
+      font-size: 18px;
+      text-align: center;
+      font-family: 'OpenSansBold';
+      color: #fff;
+    }
+    .textcus2 {
+      text-align: center;
+      color: #fff;
+      font-size: 14px;
+    }
+    .logocus{
+      width: 115px;
+      position: relative;
+      height: 100px;
+      border:1px solid #f3f4f6;
+      float: left;
+    }
+    .logocus img{
+      width: 50px;
+    }
+    .mes{
+      display: none;
+    }
+    .textfo2 a{
+      margin:0;
+    }
+    footer{
+      text-align: center;
+      margin: auto;
+    }
+    .pro{
+      background: #fafafa;
+      margin: 0  0 30px 0px;
+      text-align: center;
+    }
+    .phone{
+      display: none;
+    }
+    .formcontrol{
+      display: block;
+      width:100%;
+      margin: 10px 30px 10px 60px;
+      padding: 5px;
+      background: transparent;
+      border: 1px solid #fff;
+      border-radius: 5px;
+    }
+    .texfo1{
+      margin-top: 0px;
+      display: inline-block;
+    }
+    .ic_img img {
+      margin: 20px 0 10px 0;
+    }
+    .price{
+      background:#2794eb;
+      text-align: center;
+    }
+    .navbar-brand img{
+    width: 80px;
+    }
+    .carousel-indicators li {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: #dbdbdb;
+    }
+    }
 @media screen and (max-width: 320px){
   .phone{
     display: none;
+  }
+  .owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
   }
 .formcontrol{
   display: block;
