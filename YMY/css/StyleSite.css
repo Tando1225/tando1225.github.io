@@ -6,6 +6,8 @@
   p{
     color:#3a4352;
   }
+
+  /*css file index*/
  .circle img{
    margin-top: 20px;
  }
@@ -13,10 +15,31 @@
   {
     transform: scale(1.1);
   }
+.item-slider-2{
+  margin-bottom: 70px;
+}
+.owl-dots
+{
+  position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%);
+}
   .navbar-brand{
     margin-right: 50px;
   }
-#menu a {
+  .navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+#menu1 a {
   float: left;
   text-decoration: none;
   display: block;
@@ -26,28 +49,40 @@
   text-transform: uppercase;
   color: #415f77;
 }
-#menu a:hover {
+#numberphone:hover{
+  text-decoration: none;
+}
+#menu1 a:hover {
   background: #fff;
   color: #2794eb;
 }
-.phone{
+
+#menu1 li.active a {
+  color: #2794eb;
+}
+.phone {
   position: relative;
-  background:#fc5050;
-  height: 40px;
+  background: #fc5050;
   width: 195px;
-  margin-top: 5px;
-  padding: 5px 10px;
+  height:45px;
   border-radius: 5px;
 }
-.phone::before{
-  content:url("../images/icon/ic_phone.png");
+.phone::before {
+  content: url(../images/icon/ic_phone.png);
   position: absolute;
+  top: 50%;
+  left: 0;
+  margin-left: 7px;
+  transform: translate(-0%,-50%);
 }
-.phone p{
+#numberphone {
   color: #fff;
   font-size: 21px;
-  margin-left: 30px;
   font-family: 'OpenSansBold';
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-15%,-50%);
 }
 .price{
   background:#2794eb;
@@ -55,9 +90,10 @@
 .prices {
   padding: 30px 0 10px 0;
 }
-.textprice p{
+.textprice p {
   color: #fff;
   font-size: 20px;
+  line-height: 45px;
   text-transform: uppercase;
   font-family: 'OpenSansBold';
 }
@@ -72,7 +108,7 @@
 .formcontrol{
   display: block;
   width:100%;
-  padding: 5px;
+  padding: 10px;
   background: transparent;
   border: 1px solid #fff;
   border-radius: 5px;
@@ -80,27 +116,27 @@
 ::-webkit-input-placeholder {
   color: #fff;
 }
-.btncall p{
+.btncall p {
   background: #fff;
   border-radius: 5px;
-  height: 40px;
   text-align: center;
-  color:#2794eb;
-  font-size: 18px;
+  color: #2794eb;
+  padding: 8px;
+  font-size: 20px;
   font-family: 'OpenSansBold';
-  line-height: 40px;
 }
+
 .btncall p:hover{
   color:#fff;
   background: #0c74c7;
-  font-size:18px;
   font-family: 'OpenSansBold';
-  line-height: 40px;
+}
+.navbar-brand {
+  margin-right: 75px;
 }
 .pro{
   background: #fafafa;
   padding: 30px 0;
-  margin-bottom: 30px;
 }
 .ic_img img{
   margin-bottom: 20px;
@@ -117,6 +153,7 @@
 }
 .content{
   padding: 30px px;
+  margin-top:50px;
   text-align: center;
   position: relative;
 }
@@ -125,9 +162,15 @@
   font-size: 25px;
   font-family: 'OpenSansBold';
 }
+.textcontent:hover{
+color:#fdb813;
+}
 .textcontent1{
   font-size: 18px;
   color: #666666;
+}
+a:hover{
+  color:#fdb813;
 }
 .textdetail{
   text-align: center;
@@ -145,10 +188,10 @@
 }
 .img a:hover  img{
   transform: scale(1.1);
-  opacity: 0.3;
+  opacity: 0.7;
 }
 .contentshirt{
-  margin: 10px 0;
+  margin: 25px 0;
 }
 .textdetail:hover .img{
   transition: all .5s ease;
@@ -274,7 +317,7 @@ a:hover{
   position: relative;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background:blue;
+  background:#328fff;
 }
 .owl-theme .owl-dots .owl-dot {
   display: inline-block;
@@ -412,4 +455,156 @@ a:hover{
 .ic_menu {
   display: none;
   opacity: 0;
+}
+#menu{
+  background: #fff;
+}
+.menu{
+  padding: 15px 0;
+}
+/*css cuộn menu  fix*/
+.sticky {
+   position: fixed;
+  top: 0; 
+  width: 100%;
+  padding:0;
+  z-index: 200; 
+}
+/*css file product*/
+.contentpro{
+  padding: 30px auto;
+  margin-top:30px;
+  text-align: center;
+  position: relative;
+}
+.contentpro .textcontent {
+  color: #328fff;
+  font-size: 25px;
+  line-height: 45px;
+  padding-left: 30px;
+  text-align: left;
+  border-left: 3px solid #fc5050;
+  font-family: 'OpenSansBold';
+}
+.contentpro .textcontent1 {
+  font-size: 18px;
+  color: #666666;
+  position: absolute;
+  left: 34%;
+  top:80px;
+  text-align: left;
+  right: 10%;
+}
+.proshirt{
+  margin-top: 110px;
+}
+.pag {
+  position: relative;
+  margin: 10px 0 70px 0;
+}
+
+.pagination{
+position: absolute;
+right: 0;
+top:50%;
+transform: translateY(-50%);
+}
+.pagination li{
+  margin-right:25px;
+ 
+}
+
+.pagination li a{
+  font-size:20px;
+  color:#3a4352;
+}
+
+.pagination li a:hover{
+  border-bottom:1px solid #fc5050;
+  color:#fc5050;
+}
+.hrthanks{
+  width: 40px;
+  height: 3px;
+  margin-left: 0px;
+  background: #2794eb;
+  margin: 7px 0;
+  border: 1px solid #2794eb;
+}
+.thanks{
+  font-size: 25p;
+  padding-bottom: 90px;
+  font-family: 'OpenSansBold';
+}
+/*css about*/
+.contentabout{
+  padding: 30px auto;
+  margin-top:30px;
+  text-align: center;
+}
+.contentabout .textcontent{
+  color: #328fff;
+  font-size: 55px;
+  text-align: center;
+  font-family: 'OpenSansBold';
+}
+.contentabout .textcontent1{
+  font-size: 20px;
+  color: #666666;
+  text-align: center;
+  padding: 0 100px;
+}
+.hrabout{
+  width: 150px;
+  height: 3px;
+  margin: 0 auto 25px auto;
+  background: #fc5050;
+  border: 1px solid #fc5050;
+}
+.aboutcontent {
+  margin: 50px 0;
+}
+.textabout1{
+  font-size:30px;
+  font-family: 'OpenSansBold';
+  text-align:left;
+  margin-left:15px;
+}
+.textabout2{
+  font-size:18px;
+  text-align:left;
+  margin-left:15px;
+}
+.hrpolicy{
+  width: 70px;
+  height: 3px;
+  margin:7px 15px;
+  background: #fc5050;
+  border: 1px solid #fc5050;
+}
+.policy{
+  margin-bottom:70px;
+}
+.policy1{
+  font-size:25px;
+  font-family: 'OpenSansBold';
+  color:#2794eb;
+  margin:15px;
+}
+/*css productdetails*/
+.slider-3{
+  transform: rotate(90deg);
+  width: 100px; 
+  margin-top:100px;
+} 
+.slider_3{
+  transform: rotate(-90deg);
+}
+.slider-3 .owl-nav{
+  display: none;
+}
+div.slider-3 .owl-nav .owl-prev, div.owl-carousel .owl-nav .owl-next{
+    font-size:36px;
+    top:unset;
+    bottom: 15px; 
 }

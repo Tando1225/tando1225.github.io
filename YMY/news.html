@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>YMY</title>
+    <!--import css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/StyleSite.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <div id="menu" class="menu">
+        <div class="container header">
+            <div>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#"><img src="images/icon/logo.png" class="img-fluid logo-pc" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav" id="menu1">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Trang chủ<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sản phẩm áo thun</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#">Giới thiệu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hỏi đáp</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Tin tức</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="phone"><a href="#" id="numberphone">
+                            <p></p>0973 457 788</p>
+                        </a></div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <img class="img-fluid" src="images/banner/probanner.png" alt="banner">
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 logofo fo">
+                    <img src="images/icon/logofo.png" />
+                    <p>© 2015 - 2016 YMY. All Rights Reserved.<br />
+                        Powered by Nic</p>
+                </div>
+                <div class="col-md-2 fo">
+                    <p class="textfo">DANH MỤC</p>
+                    <div class="hr"></div><br />
+                    <div class="textfo1">
+                        <a href="#">Giới thiệu</a>
+                        <a href="#">Sản xuất áo thun</a>
+                        <a href="#">Sản xuất áo mưa</a>
+                        <a href="#">Hỏi đáp</a>
+                        <a href="#">Tin tức</a>
+                    </div>
+                </div>
+                <div class="col-md-3 fo">
+                    <p class="textfo">liên hệ</p>
+                    <div class="hr"></div><br />
+                    <div class="textfo1">
+                        <p class="contact">86D Đường 16, Phường Bình An,<br />
+                            Quận 2, Hồ Chí Minh</p>
+                        <a class="link" href="#">www.aothunymy.vn</a>
+                    </div>
+                </div>
+                <div class="col-md-3 fo">
+                    <p class="textfo">tư vấn - báo giá</p>
+                    <div class="hr"></div><br />
+                    <div class="textfo2">
+                        <p class="contact">Hotline: 0973 457 788 &nbsp;&nbsp;0908 494 768<br />
+                            Email: info@ymy.vn</p>
+                        <a class="link" href="#"><img src="images/icon/ic_face.png"></a>
+                        <a class="link" href="#"><img src="images/icon/ic_camera.png"></a>
+                        <a class="link" href="#"><img src="images/icon/ic_v.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mes">
+            <a href="#"><img src="images/icon/ic_mes.png" /></a>
+        </div>
+    </footer>
+    <!--import js-->
+    <script src="scripts/jquery-3.2.1.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/owl.carousel.js"></script>
+    <script src="scripts/owl.carousel.min.js"></script>
+    <script src="scripts/script.js"></script>
+    <script>
+        $('.slider-1').owlCarousel({
+            margin: 0,
+            loop: true,
+            items: 1,
+        })
+        $('.slider-2').owlCarousel({
+            margin: 0,
+            loop: true,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 2,
+                    nav: false
+                },
+                1000: {
+                    items: 3,
+                    nav: true,
+                    loop: false
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
